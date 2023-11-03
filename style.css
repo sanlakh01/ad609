@@ -1,0 +1,21 @@
+@font-face{ 
+    font-family: 'OpenDyslexic-Bold'; 
+    src: url('OpenDyslexic-Bold') format('opentype'); 
+    font-weight: bold; 
+    font-style: normal;
+}
+
+@font-face{ 
+    font-family: 'OpenDyslexic-Regular'; 
+    src: url('OpenDyslexic-Regular') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal;
+}
+
+p{
+    font-family: 'OpenDyslexic-Regular', sans-serif;
+}
+
+h1, h2, h3, h4{
+    font-family: 'OpenDyslexic-Bold', sans-serif;
+}
