@@ -1,3 +1,4 @@
+/*font loading*/
 @font-face{ 
     font-family: 'OpenDyslexic-Bold'; 
     src: url('OpenDyslexic-Bold.otf') format('opentype'); 
@@ -11,23 +12,59 @@
     font-weight: normal; 
     font-style: normal;
 }
-/*overlay styles*/
-#overlay{
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    background-color: #d6d6d6;
-    top: 0;
-    left: 0;
-    border: 20px solid #D3C9E3;
-    box-sizing: border-box;
-    display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-}
+/* ------------------------------------------------------- */
+/*visibility rules*/
 .show{
     visibility: visible;
 }
 .hide{
     visibility: hidden;
+}
+/* ------------------------------------------------------- */
+/*body styles*/
+body{
+    background-color: #231F20;
+}
+#bar::-webkit-scrollbar {
+    display: none;
+}
+/* ------------------------------------------------------- */
+/*font styles*/
+h1, h2, h3, h4, p, li{
+    font-family: 'OpenDyslexic-Regular',monospace;
+}
+h1, h2, h3, h4{
+    color: #FF00FE;
+}
+p,li{
+    color: #fff;
+}
+#overlay h1, #overlay h2, #overlay h3, #overlay h4, #overlay p, #overlay button{
+    color: #808184;
+    font-weight: normal;
+}
+/* ------------------------------------------------------- */
+/*overlay styles*/
+#overlay{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #231F20;
+    top: 0;
+    left: 0;
+    border: 2px solid #FF00FE;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ------------------------------------------------------- */
+/*button style*/
+button{
+    border:none;
+    background-color: #231F20;
+    font-family: 'OpenDyslexic-Regular', monospace;
+    font-size: 16px;
+    padding: 0;
 }
