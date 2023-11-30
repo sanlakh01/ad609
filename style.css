@@ -1,0 +1,74 @@
+/*font loading*/
+@font-face{ 
+    font-family: 'OpenDyslexic-Bold'; 
+    src: url('OpenDyslexic-Bold.otf') format('opentype'); 
+    font-weight: bold; 
+    font-style: normal;
+}
+@font-face{ 
+    font-family: 'OpenDyslexic-Regular'; 
+    src: url('OpenDyslexic-Regular.otf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal;
+}
+/* ------------------------------------------------------- */
+/*general styles*/
+body{
+    background-color: #231F20;
+}
+h1, h2, h3, h4, p, li{
+    font-family: 'OpenDyslexic-Regular',monospace;
+}
+h1, h2, h3, h4{
+    color: #FF00FE;
+}
+p,li{
+    color: #fff;
+}
+#scroll::-webkit-scrollbar {
+    display: none;
+}
+.show{
+    visibility: visible;
+}
+.hide{
+    visibility: hidden;
+    display: none;
+}
+/* ------------------------------------------------------- */
+/*OVERLAY styles*/
+#overlay1, #overlay2{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #231F20;
+}
+#overlay1{
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+#overlay1 h1{
+    font-size: 100px;
+    padding: 0 20px;
+    margin: 0;
+    text-align: center;
+    cursor: pointer;
+}
+#overlay2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#overlay2 div{
+    max-width: 70%;
+}
+#overlay2>p{
+    color:#FF00FE;
+    cursor: pointer;
+}
