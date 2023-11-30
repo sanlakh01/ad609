@@ -1,3 +1,6 @@
+*{
+    border: 1px greenyellow solid;
+}
 /*font loading*/
 @font-face{ 
     font-family: 'OpenDyslexic-Bold'; 
@@ -15,6 +18,7 @@
 /*general styles*/
 body{
     background-color: #231F20;
+    margin: 2%;
 }
 h1, h2, h3, h4, p, li{
     font-family: 'OpenDyslexic-Regular',monospace;
@@ -35,6 +39,27 @@ p,li{
     visibility: hidden;
     display: none;
 }
+/* ------------------------------------------------------- */
+/*MAIN CONTENT styles*/
+#access header{
+    display: flex;
+    gap: 20px;
+}
+#access header>div{
+    width: 55%;
+}
+#access h1{
+    margin: 0;
+    font-size: 65px;
+}
+#access p:first-of-type{
+    font-size: 14px;
+    margin-top: 0;
+}
+#access p:last-of-type{
+    font-size: 18px;
+}
+/*nav styles*/
 /* ------------------------------------------------------- */
 /*OVERLAY styles*/
 #overlay1, #overlay2{
