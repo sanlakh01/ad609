@@ -13,6 +13,9 @@
 }
 /* ------------------------------------------------------- */
 /*general styles*/
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #231F20;
     overflow-x: hidden;
@@ -61,6 +64,18 @@ p,li{
 #access header p:last-of-type{
     margin-top: 30px;
     font-size: 18px;
+}
+#access header img{
+    display: block;
+    margin: 0 auto;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline;
+    color: #FF00FE;
 }
 /*nav styles*/
 #access nav{
