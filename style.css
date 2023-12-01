@@ -15,10 +15,9 @@
 /*general styles*/
 body{
     background-color: #231F20;
-    /* padding: 2%;
-    margin: 0; */
+    overflow-x: hidden;
 }
-h1, h2, h3, h4, p, li{
+h1, h2, h3, h4, p, li, button{
     font-family: 'OpenDyslexic-Regular',monospace;
 }
 h1, h2, h3{
@@ -64,12 +63,12 @@ p,li{
     font-size: 18px;
 }
 /*nav styles*/
-nav{
+#access nav{
     border: 1px solid #FF00FE;
     margin-top: 70px;
     margin: 2%;
 }
-nav ul{
+#access nav ul{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -79,18 +78,18 @@ nav ul{
 #access main section{
     margin: 0 3%;
 }
-section h2{
+#access section h2{
     font-size: 50px;
     margin-bottom: 0;
 }
-section p, section ul, section ol{
+#access section p, #access section ul, #access section ol{
     font-size: 18px;
 }
-section h4{
+#access section h4{
     font-size: 24px;
     margin-top: 0;
 }
-section ul, section p{
+#access section ul, #access section p{
     max-width: 45%;
 }
 #what h2, #what h4, #what ul, #what p, #how h2, #how h4, #how ol, #how p{
@@ -98,13 +97,13 @@ section ul, section p{
 }
 /* ------------------------------------------------------- */
 /*footer styles*/
-footer{
+#access footer{
     background-color:#FF00FE;
     margin: 0;
     margin-top: 100px;
     padding: 2%;
 }
-footer p{
+#access footer p{
     color: #231F20;
     font-size: 30px;
     font-family: 'OpenDyslexic-Bold',monospace;
@@ -148,4 +147,113 @@ footer p{
 #overlay2>p{
     color:#FF00FE;
     cursor: pointer;
+}
+/* ------------------------------------------------------- */
+/*INACCESSIBLE styles*/
+#a, #b, #c, #d, #a > div, #b > div{
+    display: flex;
+    align-items: center;
+}
+#ina header h1, #ina header p, #ina>header>div>div>button{
+    font-size: 30px;
+}
+#ina button{
+    border: none;
+    background-color: #231F20;
+    color:#fff;
+    cursor: pointer;
+}
+#a{
+    justify-content: space-between;
+}
+#a > div, #b > div, #c{
+    gap: 10px;
+}
+#b{
+    justify-content: space-around;
+}
+#c{
+    justify-content: center;
+    margin-left: 100px;
+}
+#d{
+    justify-content: space-around;
+}
+#ina header img{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #FF00FE;
+}
+#ina header h1, #ina header p{
+    margin: 0;
+}
+#ina>header>button{
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+#ina section h2, #ina section p, #ina section ul, #ina section button{
+    font-size: 20px;
+}
+#one h2:first-of-type{
+    margin: 0 0 0 5%;
+}
+#one h2:last-of-type{
+    margin: 0 0 0 9%;
+}
+#one p{
+    margin: 0 0 0 15%;
+}
+#one ul{
+    margin: 0 0 0 21%;
+}
+#one button{
+    margin: 0 0 0 25%;
+}
+#ina>main>#two>p{
+    font-size: 30px;
+    line-height: 20px;
+}
+#three{
+    font-size: 40px;
+}
+#ina main #three h2{
+    margin: 0 0 0 80%;
+    font-size: 40px;
+}
+#ina ol{
+    margin: 0;
+}
+#ina ol li:first-of-type{
+    margin: 0 0 0 70%;
+}
+#ina ol li:nth-of-type(2){
+    margin: 0 0 0 60%;
+}
+#ina ol li:nth-of-type(3){
+    margin: 0 0 0 50%;
+}
+#ina ol li:nth-of-type(4){
+    margin: 0 0 0 40%;
+}
+#ina ol li:last-of-type{
+    margin: 0 0 0 30%;
+}
+#ina main #four div h2, #ina main #four div p{
+    font-size: 24px;
+}
+#ina #four div{
+    display: flex;
+    margin: 0;
+}
+#ina #four div:first-of-type{
+    justify-content: space-around;
+}
+#ina #four div:last-of-type{
+    justify-content: center;
+    gap: 150px;
+}
+#ina footer p{
+    text-align: center;
 }
