@@ -1,6 +1,6 @@
-*{
+/* *{
     border: 1px greenyellow solid;
-}
+} */
 /*font loading*/
 @font-face{ 
     font-family: 'OpenDyslexic-Bold'; 
@@ -60,6 +60,14 @@ p,li{
     font-size: 18px;
 }
 /*nav styles*/
+nav{
+    border: 1px solid #FF00FE;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
 /* ------------------------------------------------------- */
 /*OVERLAY styles*/
 #overlay1, #overlay2{
