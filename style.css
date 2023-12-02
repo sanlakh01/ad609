@@ -19,6 +19,7 @@ html{
 body{
     background-color: #231F20;
     overflow-x: hidden;
+    transition: all 2s;
 }
 h1, h2, h3, h4, p, li, button{
     font-family: 'OpenDyslexic-Regular',monospace;
@@ -142,6 +143,7 @@ a:hover{
 	justify-content: space-around;
     align-items: center;
     z-index: 1;
+    background-image: url(assets/bg1.svg);
 }
 #overlay1 h1{
     font-size: 100px;
@@ -149,6 +151,10 @@ a:hover{
     margin: 0;
     text-align: center;
     cursor: pointer;
+    text-shadow:1px 1px 10px #231F20;
+}
+#overlay1 h1:hover{
+    text-shadow:1px 1px 10px #FF00FE;
 }
 #overlay2{
     display: flex;
