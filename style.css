@@ -161,13 +161,22 @@ a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url(assets/bg1.svg);
 }
 #overlay2 div{
-    max-width: 70%;
+    max-width: 55%;
+    background-color: #231f2082;
+    padding: 10px 30px;
+    border: 2px solid #231F20;
+    border-radius: 30px;
 }
 #overlay2>p{
     color:#FF00FE;
     cursor: pointer;
+    font-size: 24px;
+}
+#overlay2 div p{
+    font-size: 18px;
 }
 /* ------------------------------------------------------- */
 /*INACCESSIBLE styles*/
