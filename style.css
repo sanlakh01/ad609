@@ -153,7 +153,7 @@ a:hover{
     cursor: pointer;
     text-shadow:1px 1px 10px #231F20;
 }
-#overlay1 h1:hover{
+#overlay1 h1:hover, #overlay2 #start{
     text-shadow:1px 1px 10px #FF00FE;
 }
 #overlay2{
