@@ -9,11 +9,11 @@
 </head>
 
 <body id="scroll">
-    <div id="overlay1">
+    <div id="overlay1" class="hide">
         <h1>STATE OF THE INTERNET</h1>
     </div>
 
-    <div id="overlay2">
+    <div id="overlay2" class="hide">
         <div>
             <h2>What is this?</h2>
             <p>You will experience what people who use alternate navigation methods and screen readers experience.</p>
@@ -24,7 +24,7 @@
             <!-- let's get rid of the paragraph above. The "press enter" should be a bouncing animation video game load screen style. The other text can be in a load screen time delay type of animation. -->
     </div>
 
-    <div id="ina">
+    <div id="ina" class="hide">
         <!-- animate EVERYTHING IN HERE TO MOVE SLIGHTLY AND TO GROW/SHRINK. random speeds, random directions -->
         <header>
             <div id="a">
@@ -104,13 +104,12 @@
         </footer>
     </div>
 
-    <div id="access" class="hide">
+    <div id="access" class="show">
         <header>
             <div>
                 <h1>State of the Internet</h1>
                 <p>The state of web accessibility on the internet in 2023 & the most common issues across websites.</p>
                 <p>In 2023, only 3% of websites were accessible. That means that out of 1.5B+ websites, only 48,909,677 websites were accessible.</p> 
-                <!-- <button>lorem ipsum. buttons to vary things.</button> -->
             </div>
             <img src="assets/key.svg" alt="internet logo with a slice in pink, highlighting the 3% that is accessible" height="380">
         </header>
@@ -123,44 +122,52 @@
                     <li><a href="#how">How</a></li>
                     <li><a href="#options">Options</a></li>
                 </ul>
-                <!-- link these to their respective sections -->
             </nav>
         
             <section id="what">
-                <h2>What</h2>
-                <h4>What is an accessible website?</h4>
-                <p>Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people should be able to:</p>
-                <ul>
-                    <li>perceive, understand, navigate, and interact with the Web, and</li>
-                    <li>contribute to the Web</li>
-                </ul> 
-                <!-- show computer, mobile, tablet, etc etc -->
+                <img src="assets/what.png" width="360" alt="graphic of tablet, desktop, mobile, and laptop" height="360">
+                <div>
+                    <h2>What</h2>
+                    <h4>What is an accessible website?</h4>
+                    <p>Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people should be able to:</p>
+                    <ul>
+                        <li>perceive, understand, navigate, and interact with the Web, and</li>
+                        <li>contribute to the Web</li>
+                    </ul> 
+                </div>
             </section>
         
             <section id="why">
-                <h2>Why</h2>
-                <h4>Why make accessible websites?</h4>
-                <p>Everyone deserves equal access to the Web. In a world where almost everything is done digitally, making websites accessible means that everyone, regardless of disability, is able to navigate the Web with minimal to no assistance from other humans. Making a website accessible will also make it accessible for alternate forms of navigation such as tab navigation, keyboard navigation, and screen reader navigation, and not just the traditional mouse/track pad navigation.</p>
+                <div>
+                   <h2>Why</h2>
+                    <h4>Why make accessible websites?</h4>
+                    <p>Everyone deserves equal access to the Web. In a world where almost everything is done digitally, making websites accessible means that everyone, regardless of disability, is able to navigate the Web with minimal to no assistance from other humans. Making a website accessible will also make it accessible for alternate forms of navigation such as tab navigation, keyboard navigation, and screen reader navigation, and not just the traditional mouse/track pad navigation.</p> 
+                </div>
+                <img>
             </section>
         
             <section id="how">
-                <h2>How</h2>
-                <h4>How do you make a website accessible?</h4>
-                <ol>
-                    <li>Sufficient contrast between text color and background.</li>
-                    <li>Descriptive Alt-Text of images and graphics, especially those that are important to the content.</li>
-                    <li>Include HTML Structures like headings, sections, etc.</li>
-                    <li>Have descriptive buttons. This means that the text of the button makes sense, not just contextual sense.</li>
-                    <li>Make sure all form data is descriptive and has labels.</li>
-                </ol>
-                <!-- use the version of the img from the poster -->
+                <img src="assets/how.png" alt="how to make a website accessible" height="360">
+                <div>
+                    <h2>How</h2>
+                    <h4>How do you make a website accessible?</h4>
+                    <ol>
+                        <li>Sufficient contrast between text color and background.</li>
+                        <li>Descriptive Alt-Text of images and graphics, especially those that are important to the content.</li>
+                        <li>Include HTML Structures like headings, sections, etc.</li>
+                        <li>Have descriptive buttons. This means that the text of the button makes sense, not just contextual sense.</li>
+                        <li>Make sure all form data is descriptive and has labels.</li>
+                    </ol>
+                </div>
             </section>
                 
             <section id="options">
-                <h2>Provide Options</h2>
-                <p>There are a lot of different visual disabilities, not all of which we can provide access for via the methods above.</p>
-                <p>For those that need larger text, more contrast, or less contrast, these features can easily be built into the website through a collection of buttons. To provide even more customizable options, websites like Accessibly App provide a widget that can be added to the website, providing a lot more options for accessibility like dyslexic friendly fonts, and reading masks that make the website easier to use for all.</p>
-                <!-- create fake buttons showing these options -->
+                <div>
+                   <h2>Provide Options</h2>
+                    <p>There are a lot of different visual disabilities, not all of which we can provide access for via the methods above.</p>
+                    <p>For those that need larger text, more contrast, or less contrast, these features can easily be built into the website through a collection of buttons. To provide even more customizable options, websites like Accessibly App provide a widget that can be added to the website, providing a lot more options for accessibility like dyslexic friendly fonts, and reading masks that make the website easier to use for all.</p> 
+                </div>
+                <img src="assets/options.png" alt="fake buttons" width="360" height="360">
             </section>
         </main>
 
