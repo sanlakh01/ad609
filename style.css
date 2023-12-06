@@ -59,12 +59,12 @@ p,li{
     line-height: 100px;
 }
 #access header p:first-of-type{
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 16px;
+    margin-top: 20px;
 }
 #access header p:last-of-type{
-    margin-top: 30px;
-    font-size: 18px;
+    margin-top: 35px;
+    font-size: 20px;
 }
 #access header img{
     display: block;
@@ -81,18 +81,20 @@ a:hover{
 /*nav styles*/
 #access nav{
     border: 1px solid #FF00FE;
-    margin-top: 70px;
-    margin: 2%;
+    margin: 100px 2% 0 2%;
 }
 #access nav ul{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
 }
+#access li{
+    font-size: 20px;
+}
 /* ------------------------------------------------------- */
 /*section styles*/
 #access main section{
-    margin: 0 3%;
+    margin: 15% 3% 0 3%;
 }
 #access section h2{
     font-size: 50px;
@@ -108,7 +110,7 @@ a:hover{
 /* #access section ul, #access section p{
     max-width: 45%;
 } */
-#what, #how, #options{
+#what, #how, #options, #why{
     display: flex;
     align-items: center;
     gap: 15%;
@@ -124,7 +126,7 @@ a:hover{
 #access footer{
     background-color:#FF00FE;
     margin: 0;
-    margin-top: 100px;
+    margin-top: 15%;
     padding: 2%;
 }
 #access footer p{
