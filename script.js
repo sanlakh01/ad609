@@ -13,10 +13,10 @@
         event.preventDefault();
         title.className = "hide";
     })
-
     start.addEventListener("click", function(event){
         event.preventDefault();
         inst.className = "hide";
+        ina.className = "show";
     })
     content.addEventListener("click", function(event){
         event.preventDefault();
