@@ -235,8 +235,8 @@ a:hover{
 }
 #ina #three img{
     position: absolute;
-    left: 170px;
-    top: 1040px;
+    left: 15%;
+    top: 140%;
 }
 #ina header h1, #ina header p{
     margin: 0;
@@ -315,6 +315,6 @@ a:hover{
 }
 #ina>img{
     position: absolute;
-    left: 850px;
-    top: 60px;
+    left: 58%;
+    top: 9%;
 }
